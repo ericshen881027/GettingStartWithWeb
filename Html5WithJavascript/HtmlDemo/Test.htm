@@ -1,0 +1,41 @@
+<html>
+<body>
+    <style>
+        canvas {
+            border: 10px solid black;
+        }
+        .test{
+            transform: scale(0.5);
+        }
+        header {
+            font-size : 40px;
+        }
+        
+    </style>
+    <script>
+        window.onload = function () {
+            var surface = document.getElementById("Surface");
+
+            surface.onclick = function () {
+                document.getElementById("HeadTest").classList.add("test");
+            }
+            var ctxt = surface.getContext("2d");
+            ctxt.beginPath();
+            ctxt.arc(75, 75, 75, 0, 0.5 * Math.PI, true);
+            ctxt.stroke();
+        }
+        function Book() {
+            this.Test = "test";
+        }
+
+        
+    </script>
+    <header id="HeadTest">
+        Test test
+    </header>
+    <canvas width="600" height="600" id="Surface">
+        
+        Not support HTML5
+    </canvas>
+</body>
+</html>
