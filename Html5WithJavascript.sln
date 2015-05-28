@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5WithJavascript", "Html5WithJavascript\Html5WithJavascript.csproj", "{695397F2-23E4-4861-A89D-90A0AD464C2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartWithHtml5", "Html5WithJavascript\StartWithHtml5.csproj", "{695397F2-23E4-4861-A89D-90A0AD464C2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
