@@ -60,6 +60,10 @@
     <Content Include="Content\default.css" />
     <Content Include="Images\Contosologo.png" />
     <Content Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,6 +78,7 @@
     <Content Include="default.html" />
     <Content Include="Scripts\qunit.js" />
     <Content Include="Scripts\tests.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
