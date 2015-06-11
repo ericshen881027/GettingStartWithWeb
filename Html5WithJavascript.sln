@@ -30,6 +30,48 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ContosoWeb", "http://localh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationExample", "AnimationExample\AnimationExample.csproj", "{3A53F2CA-3806-4DA2-84B7-6588C94D16E4}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "chat_service", "http://localhost:5656", "{9765D4A0-B22F-4CB4-ACBC-EA14EE70CE36}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5656"
+		Debug.AspNetCompiler.PhysicalPath = "chat_service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5656\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5656"
+		Release.AspNetCompiler.PhysicalPath = "chat_service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5656\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "chat_service\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "public", "http://localhost:6956", "{95656478-9052-44AF-8AF7-C06EFB333E3D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6956"
+		Debug.AspNetCompiler.PhysicalPath = "chat_service\public\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6956\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6956"
+		Release.AspNetCompiler.PhysicalPath = "chat_service\public\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6956\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "chat_service\public\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +94,14 @@ Global
 		{3A53F2CA-3806-4DA2-84B7-6588C94D16E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A53F2CA-3806-4DA2-84B7-6588C94D16E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A53F2CA-3806-4DA2-84B7-6588C94D16E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9765D4A0-B22F-4CB4-ACBC-EA14EE70CE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9765D4A0-B22F-4CB4-ACBC-EA14EE70CE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9765D4A0-B22F-4CB4-ACBC-EA14EE70CE36}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9765D4A0-B22F-4CB4-ACBC-EA14EE70CE36}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
