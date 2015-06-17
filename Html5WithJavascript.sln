@@ -72,6 +72,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "public", "http://localhost:
 		SlnRelativePath = "chat_service\public\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasSnapshooter", "CanvasSnapshooter\CanvasSnapshooter.csproj", "{3F88E7B9-4CEB-4F79-A110-C60DACF61443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{95656478-9052-44AF-8AF7-C06EFB333E3D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3F88E7B9-4CEB-4F79-A110-C60DACF61443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F88E7B9-4CEB-4F79-A110-C60DACF61443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F88E7B9-4CEB-4F79-A110-C60DACF61443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F88E7B9-4CEB-4F79-A110-C60DACF61443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
