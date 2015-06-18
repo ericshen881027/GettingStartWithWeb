@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasSnapshooter", "Canvas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberScramble", "NumberScramble\NumberScramble.csproj", "{D03F2232-538A-4080-B286-1059B9D50134}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositionMapper", "PositionMapper\PositionMapper.csproj", "{D499134F-CF11-45F2-8159-A7140C4EAEA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{D03F2232-538A-4080-B286-1059B9D50134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D03F2232-538A-4080-B286-1059B9D50134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D03F2232-538A-4080-B286-1059B9D50134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D499134F-CF11-45F2-8159-A7140C4EAEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D499134F-CF11-45F2-8159-A7140C4EAEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D499134F-CF11-45F2-8159-A7140C4EAEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D499134F-CF11-45F2-8159-A7140C4EAEA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
